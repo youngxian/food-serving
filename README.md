@@ -1,3 +1,3 @@
 # food-serving
 
-host url: https://youngxian.github.io/food-serving/5
+host url: https://youngxian.github.io/food-serving
