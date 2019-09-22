@@ -1,0 +1,292 @@
+​ *,
+*:after,
+*:before {
+    box-sizing: inherit;
+    font-family: 'Roboto Condensed';
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    display: block;
+    overflow: hidden;
+    width: 100vw;
+}
+
+body {
+    height: 100%;
+    width: 100vw;
+}
+
+i {
+    color: grey;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Cera Pro", "HelveticaNeue", "Helvetica Neue", "HelveticaNeueRoman", "HelveticaNeue-Roman", "Helvetica Neue Roman", "TeXGyreHerosRegular", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+}
+
+:root {
+    --theme-orange: #f26226;
+    --theme-dark: #303236;
+    --theme-blue: #0F346C;
+    --theme-grey: #6D7078;
+}
+
+::selection {
+    background: var(--theme-orange);
+    color: #ffffff;
+}
+
+::-moz-selection {
+    background: var(--theme-orange);
+    color: #ffffff;
+}
+
+
+/* navigation */
+
+.navbar {
+    border-style: solid;
+    border-color: #EBEBEB;
+    border-width: 0px 0px 1px 0px;
+}
+
+.navbar a {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.navbar-brand img {
+    width: 100px;
+}
+
+.sign_up_btn {
+    background-color: #F26226;
+    border-radius: 0px;
+    color: white;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+
+/* The Big Image */
+
+
+/* .welcome_screen {
+    background-image: url("/img/welcome.jpg");
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: overlay;
+    background-color: #0009;
+} */
+
+.welcome_title {
+    align-content: center;
+}
+
+.welcome_text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    height: 200px;
+}
+
+.welcome_text>h1 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 42px;
+}
+
+.welcome_title p {
+    color: #fff;
+    background-color: var(--theme-orange);
+    font-size: 14px;
+    font-weight: 200;
+    border: 0;
+    border-radius: 0px;
+    letter-spacing: 2px;
+    padding: 15px 35px;
+}
+
+
+/* choose meal section */
+
+.choose_meal_title>h1 {
+    font-weight: 600;
+    color: var(--theme-dark);
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.choose_meal_title>p {
+    color: var(--theme-grey);
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 2.5rem;
+}
+
+
+/* what's inside */
+
+.what_we_do {
+    background-image: url("/img/salad.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem 0rem;
+}
+
+.what_we_do_content {
+    margin: 2rem 10rem;
+    padding: 4rem 6rem;
+}
+
+.what_we_do_title {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    /* color: #6A6D75; */
+    line-height: 1.5;
+}
+
+.what_we_do_desp {
+    font-size: 16px;
+    color: #6A6D75;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.what_we_do_icon {
+    width: 30px;
+}
+
+.what_we_do_icon_small {
+    width: 40px;
+}
+
+.choose_plan_btn {
+    background-color: #2E62AF;
+    color: #fff;
+    letter-spacing: 4px;
+    padding: 20px 50px;
+    font-size: 15px;
+    border-radius: 40px;
+}
+
+.choose_plan_btn:hover {
+    background-color: #0F346C;
+    color: white;
+}
+
+
+/* socil section */
+
+.contact_section h6 {
+    font-size: 12px;
+    color: #6A6D75;
+    letter-spacing: 2px;
+}
+
+.contact_section .discover {
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: #ECEEF2;
+    padding: 0px 50px;
+}
+
+.contact_section .discover p {
+    color: #6A6D75;
+}
+
+.contact_section {
+    background-color: #FAFBFC;
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #ECEEF2;
+    margin-top: 50px;
+}
+
+.input-group input {
+    border-color: #ECEEF2;
+    font-size: 14px;
+}
+
+input:focus {
+    border: 0;
+}
+
+.input-group-append span {
+    font-size: 14px;
+    color: white;
+    background-color: #245091;
+    border-style: solid;
+    border-color: #245091;
+    border-width: 1px;
+    letter-spacing: 2px;
+}
+
+.blog a {
+    color: #6A6D75;
+}
+
+
+/* pricing_section */
+
+.pricing-section {
+    padding-top: 6rem
+}
+
+.pricing_content img {
+    width: 225px;
+}
+
+.footer {
+    font-size: 12px;
+}
+
+.footer_menu {
+    color: white;
+    background-color: #0F346C;
+    text-align: left;
+}
+
+.footer_menu a {
+    color: #a1bce6;
+}
+
+.footer_menu ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.footer_menu ul li {
+    padding: 10px 0px;
+}
+
+.footer_menu .google-play {
+    width: 50px;
+}
+
+.social_icon .icon-social {
+    width: 30px;
+}
